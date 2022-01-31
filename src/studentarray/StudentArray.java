@@ -24,13 +24,16 @@ public class StudentArray {
         for(int i=0; i<studList.length;i++)
         {
                 studList[i]=new Student();
+                 System.out.println("Enter student id: ");
+                 studList[i].setSid(input.next());
                  System.out.println("Enter student name: ");
                  studList[i].setName(input.nextLine());
       
         }
      for(int i=0; i<studList.length;i++)
         {
-                 System.out.println("student name: "+studList[i].getName());
+         System.out.println("student id: "+studList[i].getSid());        
+         System.out.println("student name: "+studList[i].getName());
                   
         }
     
