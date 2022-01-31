@@ -25,7 +25,7 @@ public class StudentArray {
         {
                 studList[i]=new Student();
                  System.out.println("Enter student id: ");
-                 studList[i].setSid(input.next());
+                 studList[i].setSid(input.nextInt());
                  System.out.println("Enter student name: ");
                  studList[i].setName(input.nextLine());
       
