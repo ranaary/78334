@@ -34,6 +34,7 @@ public class StudentArray {
         {
          System.out.println("student id: "+studList[i].getSid());        
          System.out.println("student name: "+studList[i].getName());
+         System.out.println("work donw");
                   
         }
     
